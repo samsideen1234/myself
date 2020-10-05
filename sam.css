@@ -1,0 +1,180 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+ 
+
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #01a3a4;
+    height: 150px;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+    transform: translate(100px);
+    margin-top:30px ;
+}
+
+ul li{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.item2 i{
+
+    margin:20px;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:942px){
+
+ul li{
+    display: block;
+}
+
+
+ul{
+
+    transform: translate(20px);
+}
+
+
+
+
+
+
+}
+
+
+.container{
+
+
+    width: 100%;
+height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ccc.jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   object-fit:cover;
+
+}
+
+
+.container h1{
+
+    color: white;
+    position: absolute;
+    top: 77%;
+    left: 9%;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+span{
+    color: yellow;
+}
+
+
+.My-projects{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 30px;
+    background-color: #0652DD;
+    padding: 30px;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+
+h2{
+    text-align: center;
+margin: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: red ;
+}
+
+
+.My-projects img{
+opacity: 0.8;
+border-radius: 14px;
+cursor: pointer;
+
+}
+
+.My-projects img:hover{
+opacity: 1;
+
+}
+
+
+footer{
+
+    background-color:#2C3A47;
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+footer h1{
+
+text-align: center;
+color: white;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+footer p{
+
+text-align: justify;
+color: white;
+
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+
+}
+
+footer iframe{
+
+margin: 20px;
+position: relative;
+left: 90px;
+
+}
+
+
